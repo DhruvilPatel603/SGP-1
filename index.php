@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +14,8 @@
     <header>
         <nav>
             <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="loginPage.html">Login</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="login.php">login</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
             </ul>
         </nav>
